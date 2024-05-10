@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class MemberController {
 
-	@GetMapping("/")
+	@GetMapping("/member")
 	public String member() {
 		return "member";
 	}
